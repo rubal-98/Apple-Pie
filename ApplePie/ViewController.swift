@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var correctWordLabel: UILabel!
     
     @IBOutlet var letterButtons: [UIButton]!
-    var listOfWords=["savreen","savi","submarine","dubak"]
+    var listOfWords=["poltergeist","conjuring","exorcist","misery"]
     let incorrectWordsAllowed = 7
     var totalWins = 0 {
         didSet {
